@@ -23,9 +23,9 @@ classDiagram
         -number: String
         -balance: double
         
-        +deposit(id: String, amount: double) double
-        +withdraw(id: String, amount: double) double
-        +transfer(id: String, amount: double, toAccountNumber: String) double
+        +deposit(id: String, amount: double) long
+        +withdraw(id: String, amount: double) long
+        +transfer(id: String, amount: double, toAccountNumber: String) long
         +computeBalance(id: String) double
     }
 
